@@ -1,5 +1,7 @@
 import React from 'react'
+import CopyEmail from '../utils/CopyEmail'
 import { Link } from 'react-router-dom'
+
 
 const Header = () => {
   return (
@@ -8,7 +10,7 @@ const Header = () => {
         <h1>Alyssa Potter Writing</h1>
       </div>        
       <nav>
-        <ul>
+        <ul className='header-options'>
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -22,6 +24,22 @@ const Header = () => {
             <Link to="/upcoming">Upcoming</Link>            
           </li>
         </ul>  
+        <ul className="header-social">
+        <li>
+          <a href="https://twitter.com/lyssp_writes" className="fa fa-twitter socbar" target="_blank" rel="noopener noreferrer">Twitter</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/alyssa_writes_things/" className="fa fa-instagram socbar" target="_blank" rel="noopener noreferrer">Insta</a>
+        </li>
+        <li>
+          <a onClick={CopyEmail} className="fa fa-envelope socbar" target="_blank" rel="noopener noreferrer">Email</a>
+        </li>
+        <li>
+          <a href="https://www.wattpad.com/user/Lyss_Potter20" className="fa wattpad socbar" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/icons/wattpad-transparent.png" alt="Wattpad Icon" />
+          </a>
+        </li>
+      </ul>
       </nav>
     </div>
     
