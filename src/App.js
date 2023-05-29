@@ -6,6 +6,7 @@ import UpcomingPage from './pages/UpcomingPage'
 import AboutPage from './pages/AboutPage'
 import Footer from './components/Footer'
 
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 function App() {
