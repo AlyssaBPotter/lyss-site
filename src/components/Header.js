@@ -54,7 +54,7 @@ const Header = () => {
               <img
                 src="../assets/icons/wattpad-transparent.png"
                 className="social-icons wattpad socbar"
-                alt="Wattpad Icon"
+                alt="W"
               />
             </a>
           </li>
