@@ -1,6 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lexend', sans-serif;
+  color: inherit;
+  font-size: inherit;
+  scroll-behavior: smooth;
+}
+
+.container{
+  width: 100%;
+}
+
 .app {
-  width: 480px;
-  max-width: 100%;
+  width: 960px;
+  max-width: 1200px;
   height: 88vh;
   margin: 0 auto;
 }
@@ -15,40 +29,54 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: beige;
+  background-color:bisque;
+  margin: 20px 0;
+}
+
+.book-title{
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 30px;
 }
 
 .book-preview{
   display: flex;
   flex-direction: row;
+  height: fit-content;
+  padding: 20px 20px;
+}
+
+.book-cover{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items:flex-start;
+  margin: 2px 2px;
+}
+
+.book-cover img{
+  width: 100%;
+  box-shadow: 0 0 8px 2px rgba(0, 0, 0, 1);
 }
 
 .book-info{
   display: flex;
   flex-direction: column;
+  width: 75%;
   margin: 2px 2px;
+  padding: 0 0 0 20px;
   font-size: 18px;
 }
 
-.book-left{
-  display: flex;
-  flex-direction: column;
-  height: 100px;
-  align-items:flex-start;
-  margin: 2px 2px;
-}
-
-.book-right{
-  display: flex;
-  flex-direction: column;
-  max-height: 10%;
-  align-items:flex-end;
-  margin: 2px 2px;
-}
+.content-warning{
+  font-size: 12px;
+  margin: 10px 0 0 0;
+}   
 
 /*-----------------------------------SOCIAL MEDIA--------------------------------------------------*/
 
-.header-social{
+.social{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -103,6 +131,29 @@
   }
 
 /*-----------------------------------------NAVBAR-------------------------------------------*/
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 30px;
+}
+
+ul{
+  list-style: none;
+}
+
+.navbar-options{
+  display: flex;
+  flex-direction: row;
+}
+
+.social nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 20px;
+}
+
 .socbar {
   margin-left:auto;
   float: right;

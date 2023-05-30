@@ -11,7 +11,7 @@ const Header = () => {
         <h1>Alyssa Potter Writing</h1>
       </div>
       <nav>
-        <ul className="header-options">
+        <ul className="navbar-options">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -25,7 +25,7 @@ const Header = () => {
             <Link to="/upcoming">Upcoming</Link>
           </li>
         </ul>
-        <ul className="header-social">
+        <ul className="social">
           <li>
             <a href="https://twitter.com/lyssp_writes" target="_blank" rel="noopener noreferrer">
               <Icon icon="fa-brands fa-twitter" className="social-icons twitter socbar" />
