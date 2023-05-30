@@ -59,6 +59,11 @@
   width: 100%;
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 1);
 }
+.book-cover img:hover{
+  scale: 105%;
+  transition: 0.1s ease-in-out;
+  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 1);
+}
 
 .book-info{
   display: flex;
@@ -79,15 +84,15 @@
 .social{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 /* Style all font awesome icons */
  .social-icons {
-  margin-bottom: 20px;
-  padding: 20px;
+  /* margin-bottom: 20px; */
+  /* padding: 20px; */
   font-size: 56px;
-  width: 50px;
+  width: 42px;
   text-align: center;
   text-decoration: none;
 }
@@ -136,6 +141,7 @@ nav{
   flex-direction: row;
   justify-content: space-between;
   max-height: 30px;
+  background-color: #fb3958;
 }
 
 ul{
@@ -150,8 +156,14 @@ ul{
 .social nav{
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  height: 20px;
+  /* justify-content: flex-end; */
+  height: 10px;
+}
+.social-icons nav{
+  font-size: 56px;
+  width: 42px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .socbar {
@@ -159,7 +171,8 @@ ul{
   float: right;
   background: transparent;
   color:black;
-  height: fit-content;
+  height: 75%;
+  position: relative;
 } 
   /* .fa-twitter.socbar {
     margin-left:auto;

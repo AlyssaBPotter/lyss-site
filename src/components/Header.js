@@ -1,6 +1,6 @@
 import React from "react";
-import CopyEmail from "../utils/CopyEmail";
 import { Link } from "react-router-dom";
+import CopyEmail from "../utils/CopyEmail";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../assets/icons/fontawesome";
 

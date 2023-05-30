@@ -10,7 +10,7 @@ const BooksPage = () => {
         <h2 className="book-title">The Best Thing</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <img src="/book-covers/Best-Thing.png" alt="The Best Thing Cover"/>
+            <img src="/book-covers/Best-Thing.png" alt="The Best Thing Cover" />
           </div>
           <div className="book-info">
             <p>
@@ -35,7 +35,7 @@ const BooksPage = () => {
         <h2 className="book-title">Every Little Thing</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <img src="/book-covers/Every-Little-Thing.png" alt="Every Little Thing Cover"/>
+            <img src="/book-covers/Every-Little-Thing.png" alt="Every Little Thing Cover" />
           </div>
           <div className="book-info">
             <p>
@@ -59,6 +59,94 @@ const BooksPage = () => {
               might just be worthy of it? Or will the demons from her past come back to haunt them
               both.
               <br />
+            </p>
+            <p className="content-warning">
+              &#9888; Mature Content: suicide & rape
+              <br />
+              &copy; All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="book-prev-container">
+        <h2 className="book-title">Second Chances</h2>
+        <div className="book-preview">
+          <div className="book-cover">
+            <img src="/book-covers/Second-Chances.png" alt="Second Chances Cover" />
+          </div>
+          <div className="book-info">
+            <p>
+              A sequel to The Best Thing.
+              <br />
+              <br /> Feyre is a junior at Harvard and still reeling from the traumatizing loss of
+              her childhood best friend/boyfriend. Her focus has been on school, work and moving
+              away after graduating, she never knew that her brother's best friend would have such
+              an impact on her life.
+              <br />
+              <br />
+              He's broody, cocky and your typical hockey playing jock. But, you shouldn't always
+              judge a book by it's cover right? Because to Storm there just maybe be more than meets
+              the eye. If only Fey can get past the rumors, gossip and asshole persona that he puts
+              up as shield.
+            </p>
+            <p className="content-warning">
+              &#9888; Mature Content: suicide & rape
+              <br />
+              &copy; All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="book-prev-container">
+        <h2 className="book-title">The Ghost of You</h2>
+        <div className="book-preview">
+          <div className="book-cover">
+            <img src="/book-covers/Second-Chances.png" alt="The Ghost of You Cover" />
+          </div>
+          <div className="book-info">
+            <p>
+              Carter's entire world is turned upside down after the tragic loss of his twin brother.
+              He's destructive, angry and blames himself for his death.
+              <br />
+              <br />
+              Madden is one of Carter's childhood best friends whose had a crush on him since they
+              were kids. But, they're relationship dramatically changed after the death of his
+              brother. She refuses to give up on him, regardless of how hard he tries to push her
+              away.
+              <br />
+              <br />
+              What happens if she's his savior, but he's her destruction?
+            </p>
+            <p className="content-warning">
+              &#9888; Mature Content: suicide/rape/substance abuse/alcohol
+              <br />
+              &copy; All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="book-prev-container">
+        <h2 className="book-title">Lose You</h2>
+        <div className="book-preview">
+          <div className="book-cover">
+            <img src="/book-covers/Second-Chances.png" alt="Lose You Cover" />
+          </div>
+          <div className="book-info">
+            <p>
+              Aria is a sophomore in college, living in beautiful Oceanside, CA. She's in a sorority
+              with her best friend and living her best life until she gets a bad grade in one of her
+              classes. She hates asking for help, but caves in and looks for a tutor.
+              <br />
+              <br />
+              Little did she know that Ace Edgewood, hockey captain and campus heartthrob was going
+              to show up to her tutor session. They don't start off on the right foot and Ace has
+              some skeletons in his closet that he needs to work through.
+              <br />
+              <br />
+              Can these two turn an unlikely friendship into more?
             </p>
             <p className="content-warning">
               &#9888; Mature Content: suicide & rape
