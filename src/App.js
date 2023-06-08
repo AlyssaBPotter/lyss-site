@@ -5,7 +5,7 @@ import BooksPage from './pages/BooksPage'
 import UpcomingPage from './pages/UpcomingPage'
 import AboutPage from './pages/AboutPage'
 import Footer from './components/Footer'
-import BookView from './components/book/BookView'
+import BookView from './components/BookView'
 
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
@@ -21,6 +21,7 @@ function App() {
             <Route path='/books' element={<BooksPage/>} />
             <Route path='/upcoming' element={<UpcomingPage/>} /> 
             <Route path='/about' element={<AboutPage/>} /> 
+            <Route path='/book/:id' element={<BookView/>} />
           </Routes>
           <Footer/>
         </div>

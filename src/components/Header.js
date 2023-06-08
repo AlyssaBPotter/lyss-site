@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import CopyEmail from "../utils/CopyEmail";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
-import "../assets/icons/fontawesome";
+import "../utils/icons/fontawesome";
 
 const Header = () => {
   return (
@@ -52,7 +52,7 @@ const Header = () => {
               rel="noopener noreferrer"
             >
               <img
-                src="../assets/icons/wattpad-transparent.png"
+                src="../utils/icons/wattpad-transparent.png"
                 className="social-icons wattpad socbar"
                 alt="W"
               />

@@ -1,17 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import books from "../data";
+import BookView from "../components/BookView";
 
 const BooksPage = () => {
   return (
     <div>
-      <div>
-        <label>Books Page</label>
-      </div>
+      <label>Books Page</label>
+
+      {books.map((book) => (
+        <div className="book-prev-container" key={book.id}>
+          <h2 className="book-title">{book.title}</h2>
+          <div className="book-preview">
+            <div className="book-cover">
+              <Link to={`/book/${book.id}`}>
+                <img src={book.cover} alt={book.title} />
+              </Link>
+            </div>
+            <div className="book-info">
+              <p>{book.description}</p>
+              <p className="content-warning">
+                &#9888; Warning: Mature Content
+                <br />
+                &copy; All Rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      ))}
+
       <div className="book-prev-container">
         <h2 className="book-title">The Best Thing</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <Link to={BookView}><img src="/books/best-thing/Best-Thing.png" alt="The Best Thing Cover" /></Link>
+            <Link to={BookView}>
+              <img src="/books/best-thing/Best-Thing.png" alt="The Best Thing Cover" />
+            </Link>
           </div>
           <div className="book-info">
             <p>
@@ -36,7 +60,10 @@ const BooksPage = () => {
         <h2 className="book-title">Every Little Thing</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <img src="../books/every-little-thing/Every-Little-Thing.png" alt="Every Little Thing Cover" />
+            <img
+              src="../books/every-little-thing/Every-Little-Thing.png"
+              alt="Every Little Thing Cover"
+            />
           </div>
           <div className="book-info">
             <p>
