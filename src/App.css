@@ -32,6 +32,10 @@
   background-color:bisque;
   margin: 20px 0;
 }
+.book-prev-container:hover .book-cover img{
+  scale: 105%;
+  transition: 0.1s ease-in-out;
+}
 
 .book-title{
   justify-content: center;
@@ -60,7 +64,6 @@
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 1);
 }
 .book-cover img:hover{
-  scale: 105%;
   transition: 0.1s ease-in-out;
   box-shadow: 0 0 12px 2px rgba(0, 0, 0, 1);
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const BooksPage = () => {
   return (
@@ -10,7 +11,7 @@ const BooksPage = () => {
         <h2 className="book-title">The Best Thing</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <img src="/book-covers/Best-Thing.png" alt="The Best Thing Cover" />
+            <Link to={BookView}><img src="/books/best-thing/Best-Thing.png" alt="The Best Thing Cover" /></Link>
           </div>
           <div className="book-info">
             <p>
@@ -35,7 +36,7 @@ const BooksPage = () => {
         <h2 className="book-title">Every Little Thing</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <img src="/book-covers/Every-Little-Thing.png" alt="Every Little Thing Cover" />
+            <img src="../books/every-little-thing/Every-Little-Thing.png" alt="Every Little Thing Cover" />
           </div>
           <div className="book-info">
             <p>
@@ -73,7 +74,7 @@ const BooksPage = () => {
         <h2 className="book-title">Second Chances</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <img src="/book-covers/Second-Chances.png" alt="Second Chances Cover" />
+            <img src="/books/second-chances/Second-Chances.png" alt="Second Chances Cover" />
           </div>
           <div className="book-info">
             <p>
@@ -103,7 +104,7 @@ const BooksPage = () => {
         <h2 className="book-title">The Ghost of You</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <img src="/book-covers/Second-Chances.png" alt="The Ghost of You Cover" />
+            <img src="/books/ghost-of-you/Ghost-of-You.png" alt="The Ghost of You Cover" />
           </div>
           <div className="book-info">
             <p>
@@ -132,7 +133,7 @@ const BooksPage = () => {
         <h2 className="book-title">Lose You</h2>
         <div className="book-preview">
           <div className="book-cover">
-            <img src="/book-covers/Second-Chances.png" alt="Lose You Cover" />
+            <img src="/books/lose-you/Lose-You.png" alt="Lose You Cover" />
           </div>
           <div className="book-info">
             <p>

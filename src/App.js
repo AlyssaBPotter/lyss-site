@@ -5,6 +5,7 @@ import BooksPage from './pages/BooksPage'
 import UpcomingPage from './pages/UpcomingPage'
 import AboutPage from './pages/AboutPage'
 import Footer from './components/Footer'
+import BookView from './components/book/BookView'
 
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
