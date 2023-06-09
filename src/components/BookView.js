@@ -1,17 +1,14 @@
-import React from 'react';
+import React from "react";
+import books from "../data";
 
-const BookView = ({ book }) => {
+const BookView = () => {
   return (
     <div>
-      <h2>{book.title}</h2>
-      <img src={book.cover} alt={book.title} />
-      <p>{book.description}</p>
-      <h3>Chapters</h3>
-      <ul>
-        {book.chapters.map((chapter, index) => (
-          <li key={index}>{chapter.title}</li>
-        ))}
-      </ul>
+      {books.map((book) => (
+        <div key={book.id}>
+          {book.firstChapter}
+        </div>
+      ))}
     </div>
   );
 };
