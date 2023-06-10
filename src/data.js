@@ -31,7 +31,7 @@ const books = [
     Can Blake move on from her tragic past and open up her heart again to someone who
     might just be worthy of it? Or will the demons from her past come back to haunt them
     both.\n`,
-    firstChapter: 'Chapter 1 content...',
+    firstChapter: '/books/every-little-thing/Every-Little-Thing-Ch1.txt',
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ const books = [
     judge a book by it's cover right? Because to Storm there just maybe be more than meets
     the eye. If only Fey can get past the rumors, gossip and asshole persona that he puts
     up as shield.\n`,
-    firstChapter: 'Chapter 1 Content',
+    firstChapter: '/books/second-chances/Second-Chances-Ch1.txt',
   },  {
     id: 4,
     title: 'The Ghost of You',
@@ -58,7 +58,7 @@ const books = [
     brother. She refuses to give up on him, regardless of how hard he tries to push her
     away.\n
     What happens if she's his savior, but he's her destruction?\n`,
-    firstChapter: 'Chapter 1 Content',
+    firstChapter: '/books/ghost-of-you/Ghost-of-You-Ch1.txt',
   },
   {
     id: 5,
@@ -71,7 +71,7 @@ const books = [
     to show up to her tutor session. They don't start off on the right foot and Ace has
     some skeletons in his closet that he needs to work through.\n
     Can these two turn an unlikely friendship into more?\n`,
-    firstChapter: 'Chapter 1 Content',
+    firstChapter: '/books/lose-you/Lose-You-Ch1.txt',
   },
 ];
 

@@ -7,7 +7,7 @@ const BookListPage = () => {
 
 
   return (
-    <div>
+    <div className="book-list-page">
       <label>Books Page</label>
 
       {books.map((book) => (
