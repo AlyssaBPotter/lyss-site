@@ -1,62 +1,43 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useParams, useEffect } from "react-router-dom";
 import books from "../data";
-import BookView from "../components/BookView";
 
 const BookPage = () => {
+  const { id } = useParams();
+  const book = books.find((book) => book.id === Number(id));
+  // const [firstChapter, setFirstChapter] = useState('');
+
+  // useEffect(() => {
+  //   const fetchFirstChapter = async () => {
+  //     try {
+  //       const response = await fetch(`/chapters/${book.firstChapter}`);
+  //       const text = await response.text();
+  //       setFirstChapter(text);
+  //     } catch (error) {
+  //       console.error('Error loading first chapter:', error);
+  //     }
+  //   };
+
+  //   fetchFirstChapter();
+  // }, [book]);
+
+  if (!book) {
+    return <div>Book not found</div>;
+  }
+
   return (
     <div>
-      <label>Books Page</label>
-
-      {books.map((book) => (
-        <div className="book-page">
-          <div className="book-prev-container" key={book.id}>
-            <h2 className="book-title">{book.title}</h2>
-            <div className="book-preview">
-              <div className="book-cover">
-                <img src={book.cover} alt={book.title} />
-              </div>
-              <div className="book-info">
-                <p style={{ whiteSpace: "pre-line" }}>{book.description}</p>{" "}
-                {/* the styling allows \n and whitespace line breaks  */}
-                <p className="content-warning">
-                  &#9888; Warning: Mature Content
-                  <br />
-                  &copy; All Rights Reserved
-                </p>
-              </div>
-            </div>
-          </div>
-          <BookView/>
+      <div className="book-prev-container">
+        <h1>{book.title}</h1>
+        <div className="book-cover">
+          <img src={book.cover} alt={book.title} />
         </div>
-      ))}
-
-      {/* <div className="book-prev-container">
-        <h2 className="book-title">The Best Thing</h2>
-        <div className="book-preview">
-          <div className="book-cover">
-            <Link to={BookView}>
-              <img src="/books/best-thing/Best-Thing.png" alt="The Best Thing Cover" />
-            </Link>
-          </div>
-          <div className="book-info">
-            <p>
-              Saylor moves to Massachusetts for college with a clean slate after a traumatic past.
-              She has all the intentions of starting over, but sometimes things don't always go as
-              planned.
-              <br />
-              But what happens when she meets a blue eyed hockey player and his best friend? Will
-              they throw a wrench in her plans or show her an alternative path?
-              <br />
-            </p>
-            <p className="content-warning">
-              &#9888; Mature Content: suicide & rape
-              <br />
-              &copy; All Rights Reserved
-            </p>
-          </div>
-        </div>
-      </div> */}
+        <p style={{ whiteSpace: 'pre-line' }}>{book.description}</p>
+      </div>
+      <div>
+        <h2>First Chapter</h2>
+        <pre>{book.firstChapter}</pre>
+      </div>
     </div>
   );
 };
