@@ -8,6 +8,16 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: 'AmaticSC';
+  src: url('utils/fonts/AmaticSC-Regular.ttf');
+}
+@font-face {
+  font-family: 'AmaticSCBold';
+  src: url('utils/fonts/AmaticSC-Bold.ttf');
+}
+
+
 .container{
   width: 100%;
 }
@@ -24,12 +34,68 @@
   font-size: 46px;
 }
 
+
+/*-----------------------------------------NAVBAR-------------------------------------------*/
+nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
+.header-navigation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.header-nav-logo{
+  margin: 0 10px;
+}
+
 .site-logo{
   display: flex;
   justify-content: center;
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 300px;
 }
+
+.navbar-options{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.link{
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: 'AmaticSC';
+  font-weight: bold;
+}
+.link:hover{
+  color: rgb(17, 71, 17);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+}
+
+
+.header-social{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0 auto;
+}
+
 
 /*-----------------------------------BOOK LIST PAGE--------------------------------------------------*/
 .book-prev-container{
@@ -111,7 +177,7 @@
   justify-content: center;
   width: 75%;
   margin: 0 auto;
-  max-height: 100px; /* Adjust this value to determine the height at which the text should be truncated */
+  /* max-height: 100px; Adjust this value to determine the height at which the text should be truncated */
   overflow: hidden;
 }
 
@@ -136,52 +202,47 @@
 
 /*-----------------------------------SOCIAL MEDIA--------------------------------------------------*/
 
-.social{
-  display: flex;
-  flex-direction: row;
-  /* justify-content: space-between; */
-}
 
 /* Style all font awesome icons */
  .social-icons {
   /* margin-bottom: 20px; */
   /* padding: 20px; */
-  font-size: 56px;
-  width: 42px;
+  font-size: 28px;
+  width: 26px;
   text-align: center;
-  text-decoration: none;
+  margin: 0 8px;
 }
 
-  /* Add a hover effect if you want */
-  .social-icons:hover {
-    box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 1);
-    opacity: .9;
-    color:black;
-  }
-  
-  /* Twitter */
-  .twitter {
-    background: #55ACEE;
-    color: white;
-  } 
+/* Add a hover effect if you want */
+.social-icons:hover {
+  box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 1);
+  opacity: .9;
+  color:black;
+}
 
-  .instagram{
-    background: #fb3958;
-    color:white;
-  }
+/* Twitter */
+.twitter {
+  background: #55ACEE;
+  color: white;
+} 
 
-  .envelope{
-    background: #35465c;
-    color:white;
-  }
+.instagram{
+  background: #fb3958;
+  color:white;
+}
+
+.envelope{
+  background: #35465c;
+  color:white;
+}
 
 
-  .social-icons.wattpad{
-    background: #ff4500;
-    align-items: center;
-    text-align: center;
-    text-decoration:none; 
-  }
+.wattpad{
+  background: #ff4500;
+  align-items: center;
+  text-align: center;
+  text-decoration:none; 
+}
   .wattpad:hover{
     background: #00BAFF;
     opacity: .7;
@@ -190,80 +251,50 @@
     text-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);
   }
 
-/*-----------------------------------------NAVBAR-------------------------------------------*/
-nav{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-height: 30px;
-  background-color: #39defb;
-}
-
-ul{
-  list-style: none;
-}
-
-.navbar-options{
-  display: flex;
-  flex-direction: row;
-}
-
-.social nav{
-  display: flex;
-  flex-direction: row;
-  /* justify-content: flex-end; */
-  height: 10px;
-}
-.social-icons nav{
-  font-size: 56px;
-  width: 42px;
-  text-align: center;
-  text-decoration: none;
-}
-
 .socbar {
-  margin-left:auto;
-  float: right;
   background: transparent;
   color:black;
   height: 75%;
   position: relative;
 } 
-  /* .fa-twitter.socbar {
-    margin-left:auto;
-    float: right;
-    background: transparent;
-    color:white;
-    height: fit-content;
-  } 
-  .fa-instagram.socbar{
-    float: right;
-    background: transparent;
-    color:white;
-    height: fit-content;
-  }
-  .fa-tumblr.socbar{
-    float: right;
-    background: transparent;
-    color:white;
-    height: fit-content;
-  }
-  .fa-envelope.socbar{
-    float: right;
-    background: transparent;
-    color:white;
-    height: fit-content;
-  } */
-  .social-icons.wattpad.socbar{
-    float: right;
-    background: transparent;
-    color:black;
-    height: 3.125rem;
-    display: flex;
-  }
-  .social-icons.wattpad.socbar:hover{
-    background: transparent;
-    filter:invert(100%);
-    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0);
-    text-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);  
-  }
+
+/* .fa-twitter.socbar {
+  margin-left:auto;
+  float: right;
+  background: transparent;
+  color:white;
+  height: fit-content;
+} 
+.fa-instagram.socbar{
+  float: right;
+  background: transparent;
+  color:white;
+  height: fit-content;
+}
+.fa-tumblr.socbar{
+  float: right;
+  background: transparent;
+  color:white;
+  height: fit-content;
+}
+.fa-envelope.socbar{
+  float: right;
+  background: transparent;
+  color:white;
+  height: fit-content;
+} */
+.social-icons.wattpad.socbar{
+  float: right;
+  background: transparent;
+  color:black;
+  height: 3.125rem;
+  display: flex;
+}
+.social-icons.wattpad.socbar:hover{
+  background: transparent;
+  filter:invert(100%);
+  box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0);
+  text-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 1);  
+}
+
+
