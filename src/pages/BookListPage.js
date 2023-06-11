@@ -14,9 +14,9 @@ const BookListPage = () => {
         <div className="book-prev-container" key={book.id}>
           <h2 className="book-title">{book.title}</h2>
           <div className="book-preview">
-            <div className="book-cover">
+            <div>
               <Link to={`/book/${book.id}`}>
-                <img src={book.cover} alt={book.title} />
+                <img className="book-cover-med" src={book.cover} alt={book.title} />
               </Link>
             </div>
             <div className="book-info">
@@ -26,6 +26,9 @@ const BookListPage = () => {
                 <br />
                 &copy; All Rights Reserved
               </p>
+              <Link to={`/book/${book.id}`}>
+                <label>Read More</label>
+              </Link>
             </div>
           </div>
         </div>

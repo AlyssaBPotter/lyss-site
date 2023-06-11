@@ -6,9 +6,9 @@ import "../utils/icons/fontawesome";
 
 const Header = () => {
   return (
-    <div className="app-header">
-      <div className="app-title">
-        <h1>Alyssa Potter Writing</h1>
+    <div className="site-header">
+      <div>
+        <img className="site-logo" src="/assets/Lyss-Header.png"></img>
       </div>
       <nav>
         <ul className="navbar-options">

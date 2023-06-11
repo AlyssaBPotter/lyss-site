@@ -24,17 +24,20 @@
   font-size: 46px;
 }
 
-/*-----------------------------------BOOK PAGE BOOK PREVIEW--------------------------------------------------*/
+.site-logo{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+/*-----------------------------------BOOK LIST PAGE--------------------------------------------------*/
 .book-prev-container{
   display: flex;
   flex-direction: column;
   width: 100%;
   background-color:bisque;
   margin: 20px 0;
-}
-.book-prev-container:hover .book-cover img{
-  scale: 105%;
-  transition: 0.1s ease-in-out;
 }
 
 .book-title{
@@ -51,22 +54,19 @@
   padding: 20px 20px;
 }
 
-.book-cover{
+.book-cover-med{
   display: flex;
   flex-direction: column;
-  width: 25%;
-  align-items:flex-start;
-  margin: 2px 2px;
-}
-
-.book-cover img{
-  width: 100%;
+  width: 60%;
+  margin: 2px auto;
   box-shadow: 0 0 8px 2px rgba(0, 0, 0, 1);
 }
-.book-cover img:hover{
-  transition: 0.1s ease-in-out;
-  box-shadow: 0 0 12px 2px rgba(0, 0, 0, 1);
-}
+  .book-cover-med:hover{
+    opacity: .7;
+    scale: 105%;
+    transition: 0.1s ease-in-out;
+    box-shadow: 0 0 12px 2px rgba(0, 0, 0, 1);
+  }
 
 .book-info{
   display: flex;
@@ -90,13 +90,48 @@
   width: 100%;
 }
 
+.book-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color:bisque;
+  margin: 20px 0;
+}
+
+.book-cover-lrg{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 2px 2px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 1);
+}
+
 .chapter-preview{
   display:block;
   justify-content: center;
   width: 75%;
   margin: 0 auto;
-
+  max-height: 100px; /* Adjust this value to determine the height at which the text should be truncated */
+  overflow: hidden;
 }
+
+.chapter-preview:target {
+  max-height: none; /* Display the full text when the target is active */
+}
+
+.read-more{
+  display: block;
+  text-align: center;
+}
+
+.read-more::before {
+  content: "▼"; /* Change this symbol to your preferred "read more" indicator */
+}
+
+.chapter-preview:target ~ .read-more::before {
+  content: "▲"; /* Change this symbol to your preferred "read less" indicator */
+}
+
 
 
 /*-----------------------------------SOCIAL MEDIA--------------------------------------------------*/

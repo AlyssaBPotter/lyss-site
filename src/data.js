@@ -11,6 +11,8 @@ const books = [
     But what happens when she meets a blue eyed hockey player and his best friend? Will
     they throw a wrench in her plans or show her an alternative path?\n`,
     firstChapter: '/books/best-thing/Best-Thing-Ch1.txt',
+    wattpadLink: 'https://www.wattpad.com/story/298076190-the-best-thing',
+    continueLink: 'https://www.wattpad.com/1178487920-the-best-thing-slipping-away',
   },
   {
     id: 2,
@@ -32,6 +34,8 @@ const books = [
     might just be worthy of it? Or will the demons from her past come back to haunt them
     both.\n`,
     firstChapter: '/books/every-little-thing/Every-Little-Thing-Ch1.txt',
+    wattpadLink: 'https://www.wattpad.com/story/321894178-every-little-thing',
+    continueLink: 'https://www.wattpad.com/1268666993-every-little-thing-chapter-one',
   },
   {
     id: 3,
@@ -47,6 +51,8 @@ const books = [
     the eye. If only Fey can get past the rumors, gossip and asshole persona that he puts
     up as shield.\n`,
     firstChapter: '/books/second-chances/Second-Chances-Ch1.txt',
+    wattpadLink: 'https://www.wattpad.com/story/316293809-second-chances',
+    continueLink: 'https://www.wattpad.com/1291179654-second-chances-remembering-you',
   },  {
     id: 4,
     title: 'The Ghost of You',
@@ -59,6 +65,8 @@ const books = [
     away.\n
     What happens if she's his savior, but he's her destruction?\n`,
     firstChapter: '/books/ghost-of-you/Ghost-of-You-Ch1.txt',
+    wattpadLink: 'https://www.wattpad.com/story/336906106-the-ghost-of-you',
+    continueLink: 'https://www.wattpad.com/1324581709-the-ghost-of-you-destruction',
   },
   {
     id: 5,
@@ -72,6 +80,8 @@ const books = [
     some skeletons in his closet that he needs to work through.\n
     Can these two turn an unlikely friendship into more?\n`,
     firstChapter: '/books/lose-you/Lose-You-Ch1.txt',
+    wattpadLink: 'https://www.wattpad.com/story/220056588-lose-you',
+    continueLink: 'https://www.wattpad.com/1309312765-lose-you-1',
   },
 ];
 
