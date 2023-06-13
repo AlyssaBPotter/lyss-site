@@ -8,9 +8,10 @@ const BookListPage = () => {
 
   return (
     <div className="book-list-page">
-      <label>Books Page</label>
+      <h1 className="page-title">Alyssa's Stories</h1>
 
       {books.map((book) => (
+        <div className="book-list">
         <div className="book-prev-container" key={book.id}>
           <h2 className="book-title">{book.title}</h2>
           <div className="book-preview">
@@ -32,35 +33,9 @@ const BookListPage = () => {
             </div>
           </div>
         </div>
-      ))}
-
-      {/* <div className="book-prev-container">
-        <h2 className="book-title">The Best Thing</h2>
-        <div className="book-preview">
-          <div className="book-cover">
-            <Link to={BookView}>
-              <img src="/books/best-thing/Best-Thing.png" alt="The Best Thing Cover" />
-            </Link>
-          </div>
-          <div className="book-info">
-            <p>
-              Saylor moves to Massachusetts for college with a clean slate after a traumatic past.
-              She has all the intentions of starting over, but sometimes things don't always go as
-              planned.
-              <br />
-              But what happens when she meets a blue eyed hockey player and his best friend? Will
-              they throw a wrench in her plans or show her an alternative path?
-              <br />
-            </p>
-            <p className="content-warning">
-              &#9888; Mature Content: suicide & rape
-              <br />
-              &copy; All Rights Reserved
-            </p>
-          </div>
+        <hr/>
         </div>
-      </div> */}
-      
+      ))}
     </div>
   );
 };

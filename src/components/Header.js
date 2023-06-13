@@ -40,7 +40,7 @@ const Header = () => {
       <ul className="header-social">
         <li>
           <a href="https://twitter.com/lyssp_writes" target="_blank" rel="noopener noreferrer">
-            <Icon icon="fa-brands fa-twitter" className="social-icons twitter socbar" />
+            <Icon icon="fa-brands fa-twitter" className="social-icons twitter" />
           </a>
         </li>
         <li>
@@ -49,12 +49,12 @@ const Header = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Icon icon="fa-brands fa-instagram" className="social-icons instagram socbar" />
+            <Icon icon="fa-brands fa-instagram" className="social-icons instagram" />
           </a>
         </li>
         <li>
           <a onClick={CopyEmail} target="_blank" rel="noopener noreferrer">
-            <Icon icon="fa-regular fa-envelope" className="social-icons envelope socbar" />
+            <Icon icon="fa-regular fa-envelope" className="social-icons envelope" />
           </a>
         </li>
         <li>
@@ -64,12 +64,13 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="../utils/icons/wattpad-transparent.png"
+              src="/icons/wattpad-black-transparent.png"
               className="social-icons wattpad socbar"
               alt="W"/>
           </a>
         </li>
       </ul>
+      <hr/>
     </div>
   );
 };
