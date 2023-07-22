@@ -46,6 +46,7 @@
 hr{
   border: none;
   border-top: 1px solid #464646;
+  margin-bottom: 10px;
 }
 
 
@@ -105,13 +106,46 @@ ul{
 }
 
 
-.header-social{
+.nav-social{
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 0 auto;
 }
 
+/*-----------------------------------FOOTER--------------------------------------------------*/
+
+.app-footer{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.app-footer hr{
+  margin-bottom: 10px;
+}
+
+.footer-navigation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+
+/* .link .app-footer{
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 28px;
+  font-family: 'AmaticSC';
+  font-weight: bold;
+}
+.link:hover{
+  color: rgb(17, 71, 17);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 1);
+} */
 
 /*-----------------------------------BOOK LIST PAGE--------------------------------------------------*/
 .book-prev-container{
@@ -262,23 +296,23 @@ ul{
     filter:invert(100%);
   }
 
-  /* For social icons in header-social */
-.header-social .social-icons{
+  /* For social icons in nav-social */
+.nav-social .social-icons{
   background: transparent;
   color:black;
   height: 75%;
   position: relative;
 } 
-.header-social .twitter:hover{
+.nav-social .twitter:hover{
   color:#00BAFF;
 }
-.header-social .instagram:hover{
+.nav-social .instagram:hover{
   color:#fb3958;
 }
-.header-social .envelope:hover{
+.nav-social .envelope:hover{
   color:#00c120;
 }
-.header-social .wattpad:hover{
+.nav-social .wattpad:hover{
   filter: invert(50%);
   background: transparent;
 }

@@ -37,7 +37,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
-      <ul className="header-social">
+      <ul className="nav-social">
         <li>
           <a href="https://twitter.com/lyssp_writes" target="_blank" rel="noopener noreferrer">
             <Icon icon="fa-brands fa-twitter" className="social-icons twitter" />

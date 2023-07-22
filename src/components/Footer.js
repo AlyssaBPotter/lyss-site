@@ -1,29 +1,75 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
+import CopyEmail from "../utils/CopyEmail";
+import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
+import "../utils/icons/fontawesome";
 
 const Footer = () => {
   return (
-    <div className='app-footer'> 
-      <hr/>
+    <div className="app-footer">
+      <hr />
       <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>      
-          </li>
-          <li>
-            <Link to="/books">Books</Link>    
-          </li>
-          <li>
-            <Link to="/upcoming">Upcoming</Link>            
-          </li>
-        </ul>  
+        <div className="footer-navigation">
+          <ul className="navbar-options">
+            <li>
+              <Link to="/" className="link">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="/about" className="link">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/books" className="link">
+                Books
+              </Link>
+            </li>
+            <li>
+              <Link to="/upcoming" className="link">
+                Upcoming
+              </Link>
+            </li>
+          </ul>
+        </div>
       </nav>
+      <ul className="nav-social">
+        <li>
+          <a href="https://twitter.com/lyssp_writes" target="_blank" rel="noopener noreferrer">
+            <Icon icon="fa-brands fa-twitter" className="social-icons twitter" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/alyssa_writes_things/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Icon icon="fa-brands fa-instagram" className="social-icons instagram" />
+          </a>
+        </li>
+        <li>
+          <a onClick={CopyEmail} target="_blank" rel="noopener noreferrer">
+            <Icon icon="fa-regular fa-envelope" className="social-icons envelope" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.wattpad.com/user/Lyss_Potter20"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/icons/wattpad-black-transparent.png"
+              className="social-icons wattpad socbar"
+              alt="W"
+            />
+          </a>
+        </li>
+      </ul>
     </div>
-    
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
