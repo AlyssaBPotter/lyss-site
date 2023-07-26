@@ -1,4 +1,5 @@
 import React from 'react'
+import CarouselGallery from '../components/Carousel'
 
 
 const HomePage = () => {
@@ -18,6 +19,7 @@ const HomePage = () => {
         </div>
       </div>
 
+      <CarouselGallery/>
       
     </div>
   );
