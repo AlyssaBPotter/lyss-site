@@ -6,7 +6,11 @@ const HomePage = () => {
 
 
   return (
-    <div className='home-container'>
+    <div className='home-container'>      
+      <div className='carousel-container'>
+        <CarouselGallery/>
+      </div>
+      
       <div className='home-header'>
         <label>HOME Page</label>
         <div className='home-about'>
@@ -19,8 +23,6 @@ const HomePage = () => {
         </div>
       </div>
 
-      <CarouselGallery/>
-      
     </div>
   );
 }

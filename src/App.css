@@ -327,5 +327,18 @@ ul{
   background: transparent;
 }
 
+/*-----------------------------------CAROUSEL--------------------------------------------------*/
+
+/* .carousel{
+  align-items: center;
+} */
+
+.carousel-container{
+  display: flex;
+  position:absolute;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
 
 
