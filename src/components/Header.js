@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import CopyEmail from "../utils/CopyEmail";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
+import social from "../data/socialMedia";
 
 const Header = () => {
   return (
@@ -39,13 +40,13 @@ const Header = () => {
       </nav>
       <ul className="nav-social">
         <li>
-          <a href="https://twitter.com/lyssp_writes" target="_blank" rel="noopener noreferrer">
+          <a href={social.twitter} target="_blank" rel="noopener noreferrer">
             <Icon icon="fa-brands fa-twitter" className="social-icons twitter" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.instagram.com/alyssa_writes_things/"
+            href={social.instagram}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -59,7 +60,7 @@ const Header = () => {
         </li>
         <li>
           <a
-            href="https://www.wattpad.com/user/Lyss_Potter20"
+            href={social.wattpad}
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -4,30 +4,35 @@ const CarouselGallery = () => {
  const data = [
     {
       image: "/books/best-thing/Best-Thing.png",
-      caption: "San Francisco"
+      caption: "The Best Thing"
     },
     {
       image: "/books/every-little-thing/Every-Little-Thing.png",
-      caption: "Scotland"
+      caption: "Every Little Thing"
     },
     {
       image: "/books/ghost-of-you/Ghost-of-You.png",
-      caption: "Darjeeling"
+      caption: "Ghost of You"
     },
     {
       image: "/books/lose-you/Lose-You.png",
-      caption: "San Francisco"
+      caption: "Lose You"
     },
     {
       image: "/books/second-chances/Second-Chances.png",
-      caption: "Scotland"
+      caption: "Second Chances"
     },
     {
       image: "/books/truth-or-dare/Truth-or-Dare.png",
-      caption: "Darjeeling"
+      caption: "Truth or Dare"
     },
 
   ];
+
+  const captionStyle = {
+    fontSize: '0'
+    
+  }
 
   return (
     <div className="carousel">
@@ -38,9 +43,10 @@ const CarouselGallery = () => {
             height="600px"
             radius="10px"
             slideNumber={false}
-            captionPosition="bottom"
+            captionStyle={captionStyle}
+            captionPosition="top"
             automatic={true}
-            dots={true}
+            dots={false}
             pauseIconColor="white"
             pauseIconSize="40px"
             slideBackgroundColor="transparent"
