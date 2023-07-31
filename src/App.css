@@ -259,13 +259,18 @@ ul{
 
 /*-----------------------------------ABOUT PAGE--------------------------------------------------*/
 
-.about-container .social{
+.about-social{
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin: 10px auto;
 } 
 
+.about-social .social-icons{
+  border-radius: 20px;
+  height: 100%;
+  font-size: 20px;
+}
 
 /*-----------------------------------SOCIAL MEDIA--------------------------------------------------*/
 

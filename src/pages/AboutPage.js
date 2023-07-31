@@ -23,7 +23,7 @@ const AboutPage = () => {
       </div>
 
       <div>
-      <ul className="social">
+      <ul className="about-social">
           <li>
             <a href={social.twitter} target="_blank" rel="noopener noreferrer">
               <Icon icon="fa-brands fa-twitter" className="social-icons twitter" />
