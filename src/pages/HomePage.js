@@ -9,13 +9,14 @@ const HomePage = () => {
     <div className='home-container'>     
 
       <div className='home-header'>
-        <label>HOME Page</label>
+        <h1 className='home-title'>WELCOME TO THE CAPTIVATING WORLD OF ALYSSA POTTER!</h1>
       </div>      
 
-      <div className='carousel-container'>
-        <CarouselGallery/>
+      <div className='home-carousel-container'>
+        <div className='carousel-container'>
+          <CarouselGallery/>
+        </div>
       </div>
-
     </div>
   );
 }

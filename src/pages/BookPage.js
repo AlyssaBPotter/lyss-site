@@ -11,6 +11,7 @@ const BookPage = () => {
   useEffect(() => {
     const fetchFirstChapter = async () => {
       try {
+        window.scrollTo({ top: 0, left: 0 });
         const response = await fetch(book.firstChapter);
         const text = await response.text();
         setFirstChapter(text);
