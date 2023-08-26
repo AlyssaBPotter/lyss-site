@@ -209,6 +209,14 @@ ul{
   padding: 20px 20px;
 }
 
+
+@media (max-width: 600px){
+  .book-preview{
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+
 .book-cover-med{
   display: flex;
   flex-direction: column;

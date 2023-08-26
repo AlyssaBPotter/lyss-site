@@ -6,7 +6,7 @@ import BookPage from "./pages/BookPage";
 import UpcomingPage from "./pages/UpcomingPage";
 import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
-import { useMediaQuery } from "react-responsive";
+// import { useMediaQuery } from "react-responsive";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
