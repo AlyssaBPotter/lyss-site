@@ -38,7 +38,7 @@ const CarouselGallery = () => {
     <div className="carousel">
           <Carousel
             data={data}
-            time={6000}
+            time={5000}
             width="850px"
             height="600px"
             radius="10px"
