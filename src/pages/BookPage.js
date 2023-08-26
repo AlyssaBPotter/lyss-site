@@ -35,8 +35,8 @@ const BookPage = () => {
           <div>
             <img className="book-cover-lrg" src={book.cover} alt={book.title} />
           </div>
-          <div className="book-info">
-            <p style={{ whiteSpace: "pre-line" }}>{book.description}</p>{" "}
+          <div className="book-page-info">
+            <p className="description" style={{ whiteSpace: "pre-line" }}>{book.description}</p>{" "}
             {/* the styling allows \n and whitespace line breaks  */}
             <p className="content-warning">
               &#9888; Warning: Mature Content

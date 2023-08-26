@@ -20,7 +20,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <div className="header-nav-logo">
+          <div className="header-logo">
             <img
               className="site-logo"
               src="/assets/Lyss-Headerv2.png"
