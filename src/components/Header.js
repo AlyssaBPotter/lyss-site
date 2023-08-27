@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../content/images/Lyss-Headerv2.png"
 import CopyEmail from "../utils/CopyEmail";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
 import social from "../data/socialMedia";
+import wattpad from "../utils/icons/wattpad-black-transparent.png";
 
 const Header = () => {
   return (
@@ -23,7 +25,7 @@ const Header = () => {
           <div className="header-logo">
             <img
               className="site-logo"
-              src="./assets/Lyss-Headerv2.png"
+              src={logo}
               alt="Alyssa Potter Header"/>
           </div>
           <div className="header-nav-right">
@@ -65,7 +67,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./icons/wattpad-black-transparent.png"
+              src={wattpad}
               className="social-icons wattpad socbar"
               alt="W"/>
           </a>

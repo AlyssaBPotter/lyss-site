@@ -1,23 +1,34 @@
 {
   "files": {
     "main.css": "/lyss-site/static/css/main.b1973fa3.css",
-    "main.js": "/lyss-site/static/js/main.3ce0a3bc.js",
+    "main.js": "/lyss-site/static/js/main.b6e483d4.js",
     "static/media/Cursive1.otf": "/lyss-site/static/media/Cursive1.c07340e6fec3d8b108b6.otf",
     "static/media/Cursive2.otf": "/lyss-site/static/media/Cursive2.7f89015899bf566ec561.otf",
+    "static/media/Lose-You.png": "/lyss-site/static/media/Lose-You.ada5fd5b1a91a03cd763.png",
+    "static/media/Ghost-Of-You.png": "/lyss-site/static/media/Ghost-Of-You.5b0fb03d2a68895e9d64.png",
+    "static/media/Youre-The-One.png": "/lyss-site/static/media/Youre-The-One.8836bfc5c79a41c1a019.png",
     "static/media/Best-Thing.png": "/lyss-site/static/media/Best-Thing.21478ffc17bbb81dba1c.png",
     "static/media/Every-Little-Thing.png": "/lyss-site/static/media/Every-Little-Thing.2bbf141c1f995d9875f5.png",
+    "static/media/Second-Chances.png": "/lyss-site/static/media/Second-Chances.490c91ecc35485430bec.png",
+    "static/media/Truth-Or-Dare.png": "/lyss-site/static/media/Truth-Or-Dare.56ac3e11a93bee59ee0d.png",
+    "static/media/Lyss-Headerv2.png": "/lyss-site/static/media/Lyss-Headerv2.7f87e39af6da135c18cf.png",
     "static/media/AmaticSC-Bold.ttf": "/lyss-site/static/media/AmaticSC-Bold.f12c1d887cda2131ac83.ttf",
     "static/media/AmaticSC-Regular.ttf": "/lyss-site/static/media/AmaticSC-Regular.fd9971162ff94dc53856.ttf",
     "static/media/Quicksand-Regular.ttf": "/lyss-site/static/media/Quicksand-Regular.04b11c8f0d4d58c1bed1.ttf",
     "static/media/Quicksand-Medium.ttf": "/lyss-site/static/media/Quicksand-Medium.e7f9096c960074f84b6c.ttf",
     "static/media/Jadibeken-Yz4m4.otf": "/lyss-site/static/media/Jadibeken-Yz4m4.644feb1d30b3c81412eb.otf",
+    "static/media/Every-Little-Thing-Ch1.txt": "/lyss-site/static/media/Every-Little-Thing-Ch1.b06ae6adf7576ccdbca7.txt",
+    "static/media/Second-Chances-Ch1.txt": "/lyss-site/static/media/Second-Chances-Ch1.c334120e128ec3c6f421.txt",
+    "static/media/Truth-Or-Dare-Ch1.txt": "/lyss-site/static/media/Truth-Or-Dare-Ch1.3f3bed0e2d5f27480752.txt",
+    "static/media/Lose-You-Ch1.txt": "/lyss-site/static/media/Lose-You-Ch1.ce3a8f7846c5fba4a364.txt",
+    "static/media/Ghost-Of-You-Ch1.txt": "/lyss-site/static/media/Ghost-Of-You-Ch1.d2a2ef8237620d6f70ee.txt",
     "static/media/Best-Thing-Ch1.txt": "/lyss-site/static/media/Best-Thing-Ch1.7c79cdd058bba0a8ec28.txt",
     "index.html": "/lyss-site/index.html",
     "main.b1973fa3.css.map": "/lyss-site/static/css/main.b1973fa3.css.map",
-    "main.3ce0a3bc.js.map": "/lyss-site/static/js/main.3ce0a3bc.js.map"
+    "main.b6e483d4.js.map": "/lyss-site/static/js/main.b6e483d4.js.map"
   },
   "entrypoints": [
     "static/css/main.b1973fa3.css",
-    "static/js/main.3ce0a3bc.js"
+    "static/js/main.b6e483d4.js"
   ]
 }

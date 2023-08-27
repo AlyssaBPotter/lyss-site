@@ -3,6 +3,7 @@ import CopyEmail from "../utils/CopyEmail";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
 import social from "../data/socialMedia";
+import wattpad from "../utils/icons/wattpad-white-transparent.png";
 
 const AboutPage = () => {
   return (
@@ -55,7 +56,7 @@ const AboutPage = () => {
             <li className="about-social-icon">
               <a href={social.wattpad} target="_blank" rel="noopener noreferrer">
                 <img
-                  src="./icons/wattpad-white-transparent.png"
+                  src={wattpad}
                   className="social-icons wattpad"
                   alt="W"
                 />

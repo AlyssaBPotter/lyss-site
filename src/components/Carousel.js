@@ -1,29 +1,36 @@
 import { Carousel } from 'react-carousel-minimal'; 
+// images
+import youreTheOne from '../content/images/books/Youre-The-One.png'
+import * as content from '../content/content.js'
 
 const CarouselGallery = () => {
  const data = [
     {
-      image: "./assets/books/best-thing/Best-Thing.png",
+      image: content.bestThing,
       caption: "The Best Thing"
     },
     {
-      image: "./books/every-little-thing/Every-Little-Thing.png",
+      image: youreTheOne,
+      caption: "You're The One"
+    },
+    {
+      image: content.everyLittleThing,
       caption: "Every Little Thing"
     },
     {
-      image: "./books/ghost-of-you/Ghost-Of-You.png",
+      image: content.ghostOfYou,
       caption: "Ghost of You"
     },
     {
-      image: "./books/lose-you/Lose-You.png",
+      image: content.loseYou,
       caption: "Lose You"
     },
     {
-      image: "./books/second-chances/Second-Chances.png",
+      image: content.secondChances,
       caption: "Second Chances"
     },
     {
-      image: "./books/truth-or-dare/Truth-Or-Dare.png",
+      image: content.truthOrDare,
       caption: "Truth or Dare"
     },
 

@@ -4,6 +4,7 @@ import CopyEmail from "../utils/CopyEmail";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
 import social from "../data/socialMedia";
+import wattpad from "../utils/icons/wattpad-black-transparent.png";
 
 
 const Footer = () => {
@@ -63,7 +64,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="./icons/wattpad-black-transparent.png"
+              src={wattpad}
               className="social-icons wattpad socbar"
               alt="W"
             />
