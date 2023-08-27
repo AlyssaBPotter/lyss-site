@@ -3,7 +3,7 @@ import { Carousel } from 'react-carousel-minimal';
 const CarouselGallery = () => {
  const data = [
     {
-      image: "./books/best-thing/Best-Thing.png",
+      image: "./assets/books/best-thing/Best-Thing.png",
       caption: "The Best Thing"
     },
     {
@@ -11,7 +11,7 @@ const CarouselGallery = () => {
       caption: "Every Little Thing"
     },
     {
-      image: "./books/ghost-of-you/Ghost-of-You.png",
+      image: "./books/ghost-of-you/Ghost-Of-You.png",
       caption: "Ghost of You"
     },
     {
@@ -23,7 +23,7 @@ const CarouselGallery = () => {
       caption: "Second Chances"
     },
     {
-      image: "./books/truth-or-dare/Truth-or-Dare.png",
+      image: "./books/truth-or-dare/Truth-Or-Dare.png",
       caption: "Truth or Dare"
     },
 

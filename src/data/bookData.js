@@ -1,9 +1,10 @@
+import bestThing from '../content/images/books/Best-Thing.png'
 
 const books = [
   {
     id: 1,
     title: 'The Best Thing',
-    cover: 'books/best-thing/Best-Thing.png',
+    cover: {bestThing},
     description: `Saylor moves to Massachusetts for college with a clean slate after a traumatic past. She has all the intentions of starting over, but sometimes things don't always go as planned.\n
     But what happens when she meets a blue eyed hockey player and his best friend? Will they throw a wrench in her plans or show her an alternative path?\n`,
     firstChapter: 'books/best-thing/Best-Thing-Ch1.txt',

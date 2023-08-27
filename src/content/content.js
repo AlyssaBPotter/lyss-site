@@ -1,0 +1,1 @@
+import bestThing from './images/Best-Thing.png'
