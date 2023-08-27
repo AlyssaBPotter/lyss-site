@@ -1,20 +1,22 @@
 import bestThing from '../content/images/books/Best-Thing.png'
+import everyLittleThing from '../content/images/books/Every-Little-Thing.png'
+import bestThingPrev from '../content/chapters/Best-Thing-Ch1.txt'
 
 const books = [
   {
     id: 1,
     title: 'The Best Thing',
-    cover: {bestThing},
+    cover: bestThing,
     description: `Saylor moves to Massachusetts for college with a clean slate after a traumatic past. She has all the intentions of starting over, but sometimes things don't always go as planned.\n
     But what happens when she meets a blue eyed hockey player and his best friend? Will they throw a wrench in her plans or show her an alternative path?\n`,
-    firstChapter: 'books/best-thing/Best-Thing-Ch1.txt',
+    firstChapter: bestThingPrev,
     wattpadLink: 'https://www.wattpad.com/story/298076190-the-best-thing',
     continueLink: 'https://www.wattpad.com/1178487920-the-best-thing-slipping-away',
   },
   {
     id: 2,
     title: 'Every Little Thing',
-    cover: './books/every-little-thing/Every-Little-Thing.png',
+    cover: everyLittleThing,
     description: `Blake Hallows has faced more trauma in her twenty two years than most people face in their entire life. From losing her mom to cancer, to her high school sweetheart their second year of college in a terrible accident. Death has basically become numbing to her. But, with only a couple years left of college she has come to realize that she missed out on a lot. So, she makes a pact with herself to finally step out of her comfort zone and enjoy the time she has left.\n
     Ryder Alexander transfers over to UCSD his senior year which is highly unusual. He was offered the position as a starting quarterback because it’s number two in state and reluctantly accepted. The Aztecs lost their quarterback a couple years prior and have been using their backup but the team hasn’t been doing well. So Ryder is brought in to try and make a difference. What he doesn’t expect is to meet a blonde beauty who completely sweeps him off of his feet.\n
     Can Blake move on from her tragic past and open up her heart again to someone who might just be worthy of it? Or will the demons from her past come back to haunt them both.\n`,
