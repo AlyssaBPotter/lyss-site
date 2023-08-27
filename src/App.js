@@ -16,7 +16,7 @@ function App() {
         <div className="app">
           <Header />
           <Routes>
-            <Route path="/" exact element={<HomePage />} />{" "}
+            <Route path="/" exact element={<HomePage />} />
             {/* 'exact' to only render this page when the path is exactly that */}
             <Route path="/books/" element={<BookListPage />} />
             <Route path="/upcoming/" element={<UpcomingPage />} />
