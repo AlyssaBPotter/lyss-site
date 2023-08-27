@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lyss-site/static/css/main.b1973fa3.css",
-    "main.js": "/lyss-site/static/js/main.a97ca499.js",
+    "main.js": "/lyss-site/static/js/main.ffe701b8.js",
     "static/media/Cursive1.otf": "/lyss-site/static/media/Cursive1.c07340e6fec3d8b108b6.otf",
     "static/media/Cursive2.otf": "/lyss-site/static/media/Cursive2.7f89015899bf566ec561.otf",
     "static/media/AmaticSC-Bold.ttf": "/lyss-site/static/media/AmaticSC-Bold.f12c1d887cda2131ac83.ttf",
@@ -11,10 +11,10 @@
     "static/media/Jadibeken-Yz4m4.otf": "/lyss-site/static/media/Jadibeken-Yz4m4.644feb1d30b3c81412eb.otf",
     "index.html": "/lyss-site/index.html",
     "main.b1973fa3.css.map": "/lyss-site/static/css/main.b1973fa3.css.map",
-    "main.a97ca499.js.map": "/lyss-site/static/js/main.a97ca499.js.map"
+    "main.ffe701b8.js.map": "/lyss-site/static/js/main.ffe701b8.js.map"
   },
   "entrypoints": [
     "static/css/main.b1973fa3.css",
-    "static/js/main.a97ca499.js"
+    "static/js/main.ffe701b8.js"
   ]
 }
