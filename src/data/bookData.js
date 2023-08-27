@@ -34,7 +34,7 @@ const books = [
   },  {
     id: 4,
     title: 'The Ghost of You',
-    cover: './books/ghost-of-you/Ghost-of-You.png',
+    cover: './books/ghost-of-you/Ghost-Of-You.png',
     description: `Carter's entire world is turned upside down after the tragic loss of his twin brother. He's destructive, angry and blames himself for his death.\n
     Madden is one of Carter's childhood best friends whose had a crush on him since they were kids. But, they're relationship dramatically changed after the death of his brother. She refuses to give up on him, regardless of how hard he tries to push her away.\n
     What happens if she's his savior, but he's her destruction?\n`,
@@ -56,9 +56,9 @@ const books = [
   {
     id: 6,
     title: 'Truth or Dare',
-    cover: './books/truth-or-dare/Truth-or-Dare.png',
+    cover: './books/truth-or-dare/Truth-Or-Dare.png',
     description: `Paisley accepts a dare or two... a night with the hot, single and infamous Maverick Warren. Hockey captain and campus heartthrob. Is it all fun and games or will this lead to more than either of them could have ever imagined?\n`,
-    firstChapter: './books/truth-or-dare/Truth-or-Dare-Ch1.txt',
+    firstChapter: './books/truth-or-dare/Truth-Or-Dare-Ch1.txt',
     wattpadLink: 'https://www.wattpad.com/story/343771302-truth-or-dare',
     continueLink: 'https://www.wattpad.com/1351079182-truth-or-dare',
   },
