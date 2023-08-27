@@ -63,7 +63,7 @@ const Footer = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/icons/wattpad-black-transparent.png"
+              src="./icons/wattpad-black-transparent.png"
               className="social-icons wattpad socbar"
               alt="W"
             />

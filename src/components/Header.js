@@ -23,7 +23,7 @@ const Header = () => {
           <div className="header-logo">
             <img
               className="site-logo"
-              src="./assets/Lyss-Headerv2.png"
+              src="assets/Lyss-Headerv2.png"
               alt="Alyssa Potter Header"/>
           </div>
           <div className="header-nav-right">
@@ -65,7 +65,7 @@ const Header = () => {
             rel="noopener noreferrer"
           >
             <img
-              src="/icons/wattpad-black-transparent.png"
+              src="./icons/wattpad-black-transparent.png"
               className="social-icons wattpad socbar"
               alt="W"/>
           </a>
