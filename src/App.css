@@ -99,6 +99,7 @@
   text-align: center;
   font-size: 80px;
   font-family: 'AmaticSC';
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
 }
 @media (max-width: 600px){
   .home-title{
@@ -113,6 +114,7 @@
   text-align: center;
   font-size: 60px;
   font-family: 'AmaticSC';
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
 }
 
 hr{
@@ -293,6 +295,7 @@ ul{
   font-family: 'Cursive1';
   font-size: 80px;
   font-weight: 500;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 1);
 }
 
 .book-preview{
