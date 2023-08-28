@@ -6,12 +6,12 @@ import BookPage from "./pages/BookPage";
 import UpcomingPage from "./pages/UpcomingPage";
 import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
 
   return (
-    <Router basename="/lyss-site">
+    <Router>
       <div className="container">
         <div className="app">
           <Header />
