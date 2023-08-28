@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9616f297.css",
-    "main.js": "/static/js/main.052e2b92.js",
+    "main.css": "/static/css/main.20aad25b.css",
+    "main.js": "/static/js/main.76a9bc3f.js",
+    "static/media/Second-Chances.png": "/static/media/Second-Chances.bc510f740f66a80b0cd7.png",
+    "static/media/Lose-You.png": "/static/media/Lose-You.86f74b6843d10311fe00.png",
+    "static/media/Every-Little-Thing.png": "/static/media/Every-Little-Thing.bdac4d6b68a14ae0aa73.png",
     "static/media/Cursive1.otf": "/static/media/Cursive1.c07340e6fec3d8b108b6.otf",
     "static/media/Cursive2.otf": "/static/media/Cursive2.7f89015899bf566ec561.otf",
-    "static/media/Lose-You.png": "/static/media/Lose-You.ada5fd5b1a91a03cd763.png",
-    "static/media/Ghost-Of-You.png": "/static/media/Ghost-Of-You.5b0fb03d2a68895e9d64.png",
     "static/media/Youre-The-One.png": "/static/media/Youre-The-One.8836bfc5c79a41c1a019.png",
-    "static/media/Best-Thing.png": "/static/media/Best-Thing.21478ffc17bbb81dba1c.png",
-    "static/media/Every-Little-Thing.png": "/static/media/Every-Little-Thing.2bbf141c1f995d9875f5.png",
-    "static/media/Second-Chances.png": "/static/media/Second-Chances.490c91ecc35485430bec.png",
+    "static/media/Ghost-Of-You.png": "/static/media/Ghost-Of-You.227b10a5e6a0ff957fe6.png",
+    "static/media/Best-Thing.png": "/static/media/Best-Thing.7db93b1306d864ca8f9b.png",
     "static/media/Truth-Or-Dare.png": "/static/media/Truth-Or-Dare.56ac3e11a93bee59ee0d.png",
     "static/media/Lyss-Headerv2.png": "/static/media/Lyss-Headerv2.7f87e39af6da135c18cf.png",
     "static/media/AmaticSC-Bold.ttf": "/static/media/AmaticSC-Bold.f12c1d887cda2131ac83.ttf",
@@ -24,11 +24,11 @@
     "static/media/Ghost-Of-You-Ch1.txt": "/static/media/Ghost-Of-You-Ch1.d2a2ef8237620d6f70ee.txt",
     "static/media/Best-Thing-Ch1.txt": "/static/media/Best-Thing-Ch1.7c79cdd058bba0a8ec28.txt",
     "index.html": "/index.html",
-    "main.9616f297.css.map": "/static/css/main.9616f297.css.map",
-    "main.052e2b92.js.map": "/static/js/main.052e2b92.js.map"
+    "main.20aad25b.css.map": "/static/css/main.20aad25b.css.map",
+    "main.76a9bc3f.js.map": "/static/js/main.76a9bc3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.9616f297.css",
-    "static/js/main.052e2b92.js"
+    "static/css/main.20aad25b.css",
+    "static/js/main.76a9bc3f.js"
   ]
 }
