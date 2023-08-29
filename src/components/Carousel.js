@@ -36,10 +36,9 @@ const CarouselGallery = () => {
 
   ];
 
-  const captionStyle = {
-    fontSize: '0'
-    
-  }
+  // const captionStyle = {
+  //   fontSize: '0'
+  // }
 
   return (
     <div className="carousel">
@@ -50,7 +49,7 @@ const CarouselGallery = () => {
             height="600px"
             radius="10px"
             slideNumber={false}
-            captionStyle={captionStyle}
+            captionStyle={{color:'transparent'}}
             captionPosition="top"
             automatic={true}
             dots={false}
