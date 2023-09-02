@@ -57,7 +57,7 @@
 }
 @media (max-width: 600px){
   .app{
-    /* Lsflex-direction: column; */
+    /* flex-direction: column; */
     width: 360px;
     justify-content: center;
   }
@@ -101,11 +101,7 @@
   font-family: 'AmaticSC';
   text-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
 }
-@media (max-width: 600px){
-  .home-title{
-    font-size: 60px;
-  }
-}
+
 .page-title{
   display: flex;
   justify-content: center;
@@ -139,9 +135,13 @@ hr{
 }
 
 @media (max-width: 600px){
+  .home-title{
+    font-size: 58px;
+  }
   .home-carousel{
     margin: 0 auto;
-    padding-bottom: 60px;
+    margin-top:15%;
+    padding-bottom: 25%;
   }
 }
 
