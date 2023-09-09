@@ -121,7 +121,7 @@ hr{
 
 .home-carousel{
   margin-top:100px;
-  margin-bottom:100px
+  margin-bottom:100px;
 }
 
 .carousel-container{
@@ -140,8 +140,8 @@ hr{
   }
   .home-carousel{
     margin: 0 auto;
-    margin-top:15%;
-    padding-bottom: 25%;
+    padding-top:30%;
+    padding-bottom: 20%;
   }
 }
 
@@ -563,4 +563,44 @@ ul{
   filter: invert(50%);
   background: transparent;
 }
+
+
+
+/*-----------------------------------SWIPER CAROUSEL-------------------------------------------------*/
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-pagination{
+  opacity: .3;
+}
+  .swiper-container:hover .swiper-pagination{
+    opacity: 1;
+  }
+.slider-arrow{
+  opacity: .2;
+  color: black;
+}
+  .slider-arrow:hover{
+    opacity: .5;
+    color: rgba(17, 71, 17, 1);
+  }
+
+
+
 
