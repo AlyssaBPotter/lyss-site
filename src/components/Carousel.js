@@ -5,32 +5,40 @@ import * as content from "../content/content.js";
 
 const CarouselGallery = () => {
   const data = [
+    // {
+    //   image: content.bestThing,
+    //   caption: "The Best Thing",
+    // },
+    // {
+    //   image: youreTheOne,
+    //   caption: "You're The One",
+    // },
+    // {
+    //   image: content.everyLittleThing,
+    //   caption: "Every Little Thing",
+    // },
+    // {
+    //   image: content.ghostOfYou,
+    //   caption: "Ghost of You",
+    // },
+    // {
+    //   image: content.loseYou,
+    //   caption: "Lose You",
+    // },
+    // {
+    //   image: content.secondChances,
+    //   caption: "Second Chances",
+    // },
+    // {
+    //   image: content.truthOrDare,
+    //   caption: "Truth or Dare",
+    // },
     {
-      image: content.bestThing,
-      caption: "The Best Thing",
+      image: content.availableWattpadSlide,
+      caption: "Available on Wattpad",
     },
     {
-      image: youreTheOne,
-      caption: "You're The One",
-    },
-    {
-      image: content.everyLittleThing,
-      caption: "Every Little Thing",
-    },
-    {
-      image: content.ghostOfYou,
-      caption: "Ghost of You",
-    },
-    {
-      image: content.loseYou,
-      caption: "Lose You",
-    },
-    {
-      image: content.secondChances,
-      caption: "Second Chances",
-    },
-    {
-      image: content.truthOrDare,
+      image: content.truthOrDareSlide,
       caption: "Truth or Dare",
     },
   ];

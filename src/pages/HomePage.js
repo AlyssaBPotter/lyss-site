@@ -1,6 +1,7 @@
 import React from "react";
 import CarouselGallery from "../components/Carousel";
 import SwiperCarousel from "../components/SwiperCarousel";
+import BasicCarousel from "../components/SwiperCarousel";
 
 const HomePage = () => {
   return (
@@ -13,11 +14,13 @@ const HomePage = () => {
         <SwiperCarousel />
       </div>
 
-      {/* <div className="home-carousel">
-        <div className="carousel-container">
-          <CarouselGallery />
-        </div>
-      </div> */}
+      <div>
+        <CarouselGallery />
+      </div>
+
+      <div>
+        <BasicCarousel />
+      </div>
     </div>
   );
 };
