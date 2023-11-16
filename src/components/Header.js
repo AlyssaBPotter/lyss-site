@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../content/images/Lyss-Headerv2.png"
+import logo from "../content/images/Lyss-Headerv2.png";
 import CopyEmail from "../utils/CopyEmail";
 import { FontAwesomeIcon as Icon } from "@fortawesome/react-fontawesome";
 import "../utils/icons/fontawesome";
@@ -15,26 +15,31 @@ const Header = () => {
           <div className="header-nav-left">
             <ul className="navbar-options">
               <li>
-                <Link to="/" className="link">Home</Link>
+                <Link to="/" className="link">
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/about" className="link">About</Link>
+                <Link to="/about" className="link">
+                  About
+                </Link>
               </li>
             </ul>
           </div>
           <div className="header-logo">
-            <img
-              className="site-logo"
-              src={logo}
-              alt="Alyssa Potter Header"/>
+            <img className="site-logo" src={logo} alt="Alyssa Potter Header" />
           </div>
           <div className="header-nav-right">
             <ul className="navbar-options">
               <li>
-                <Link to="/books" className="link">Books</Link>
+                <Link to="/books" className="link">
+                  Books
+                </Link>
               </li>
               <li>
-                <Link to="/upcoming" className="link">Upcoming</Link>
+                <Link to="/upcoming" className="link">
+                  Upcoming
+                </Link>
               </li>
             </ul>
           </div>
@@ -42,16 +47,12 @@ const Header = () => {
       </nav>
       <ul className="nav-social">
         <li>
-          <a href={social.twitter} target="_blank" rel="noopener noreferrer">
-            <Icon icon="fa-brands fa-twitter" className="social-icons twitter" />
+          <a href={social.twitterX} target="_blank" rel="noopener noreferrer">
+            <Icon icon="fa-brands fa-x-twitter" className="social-icons twitter" />
           </a>
         </li>
         <li>
-          <a
-            href={social.instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={social.instagram} target="_blank" rel="noopener noreferrer">
             <Icon icon="fa-brands fa-instagram" className="social-icons instagram" />
           </a>
         </li>
@@ -61,19 +62,12 @@ const Header = () => {
           </a>
         </li>
         <li>
-          <a
-            href={social.wattpad}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={wattpad}
-              className="social-icons wattpad socbar"
-              alt="W"/>
+          <a href={social.wattpad} target="_blank" rel="noopener noreferrer">
+            <img src={wattpad} className="social-icons wattpad socbar" alt="W" />
           </a>
         </li>
       </ul>
-      <hr/>
+      <hr />
     </div>
   );
 };

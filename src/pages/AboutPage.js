@@ -40,7 +40,7 @@ const AboutPage = () => {
           <ul>
             <li className="about-social-icon">
               <a href={social.twitter} target="_blank" rel="noopener noreferrer">
-                <Icon icon="fa-brands fa-twitter" className="social-icons twitter" />
+                <Icon icon="fa-brands fa-x-twitter" className="social-icons twitter" />
               </a>
             </li>
             <li className="about-social-icon">
@@ -55,11 +55,7 @@ const AboutPage = () => {
             </li>
             <li className="about-social-icon">
               <a href={social.wattpad} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={wattpad}
-                  className="social-icons wattpad"
-                  alt="W"
-                />
+                <img src={wattpad} className="social-icons wattpad" alt="W" />
               </a>
             </li>
           </ul>

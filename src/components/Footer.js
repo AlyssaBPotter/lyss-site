@@ -6,7 +6,6 @@ import "../utils/icons/fontawesome";
 import social from "../data/socialMedia";
 import wattpad from "../utils/icons/wattpad-black-transparent.png";
 
-
 const Footer = () => {
   return (
     <div className="app-footer">
@@ -40,15 +39,11 @@ const Footer = () => {
       <ul className="nav-social">
         <li>
           <a href={social.twitter} target="_blank" rel="noopener noreferrer">
-            <Icon icon="fa-brands fa-twitter" className="social-icons twitter" />
+            <Icon icon="fa-brands fa-x-twitter" className="social-icons twitter" />
           </a>
         </li>
         <li>
-          <a
-            href={social.instagram}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href={social.instagram} target="_blank" rel="noopener noreferrer">
             <Icon icon="fa-brands fa-instagram" className="social-icons instagram" />
           </a>
         </li>
@@ -58,20 +53,14 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a
-            href={social.wattpad}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={wattpad}
-              className="social-icons wattpad socbar"
-              alt="W"
-            />
+          <a href={social.wattpad} target="_blank" rel="noopener noreferrer">
+            <img src={wattpad} className="social-icons wattpad socbar" alt="W" />
           </a>
         </li>
       </ul>
-      <label className="copyright">Copyright © 2023 Alyssa Potter. Web design by Nathan Potter. All rights reserved.</label>
+      <label className="copyright">
+        Copyright © 2023 Alyssa Potter. Web design by Nathan Potter. All rights reserved.
+      </label>
     </div>
   );
 };
