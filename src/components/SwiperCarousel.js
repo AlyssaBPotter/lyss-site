@@ -1,41 +1,49 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
 import * as content from "../content/content.js";
+import books from "../data/bookData";
 
 const slidesData = [
   {
     id: 1,
     image: content.bestThing,
     caption: "The Best Thing",
+    link: "/book/1",
   },
   {
     id: 2,
     image: content.everyLittleThing,
     caption: "Every Little Thing",
+    link: "/book/2",
   },
   {
     id: 3,
     image: content.ghostOfYou,
     caption: "Ghost of You",
+    link: "/book/4",
   },
   {
     id: 4,
     image: content.loseYou,
     caption: "Lose You",
+    link: "/book/5",
   },
   {
     id: 5,
     image: content.secondChances,
     caption: "Second Chances",
+    link: "/book/3",
   },
   {
     id: 6,
     image: content.truthOrDare,
     caption: "Truth or Dare",
+    link: "/book/6",
   },
 ];
 
@@ -49,7 +57,7 @@ const SwiperCarousel = () => {
         spaceBetween={10}
         loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         slidesPerView={3}
@@ -75,7 +83,9 @@ const SwiperCarousel = () => {
       >
         {slidesData.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <img src={slide.image} />
+            <Link to={slide.link}>
+              <img src={slide.image} />
+            </Link>
           </SwiperSlide>
         ))}
         <div className="slider-controller">

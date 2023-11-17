@@ -1,4 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Link } from "react-router-dom";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/effect-fade";
@@ -17,30 +18,25 @@ const slidesData = [
     id: 2,
     image: content.truthOrDareSlide,
     caption: "Truth or Dare",
+    link: "/book/6",
   },
 ];
 
-const BasicCarousel = () => {
+const FadeCarousel = () => {
   return (
     <div className="swiper-container">
       <Swiper
+        modules={[EffectFade, Pagination, Navigation, Autoplay]}
         effect={"fade"}
-        grabCursor={true}
-        centeredSlides={true}
+        slidesPerView={1}
         spaceBetween={10}
         loop={true}
+        grabCursor={true}
+        centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 4500,
           disableOnInteraction: false,
         }}
-        slidesPerView={1}
-        // fadeEffect={{
-        //   rotate: 50,
-        //   stretch: 0,
-        //   depth: 100,
-        //   modifier: 1,
-        //   slideShadows: true,
-        // }}
         pagination={{
           el: ".swiper-pagination",
           clickable: true,
@@ -51,12 +47,13 @@ const BasicCarousel = () => {
           prevEl: ".swiper-button-prev",
           clickable: true,
         }}
-        modules={[EffectFade, Pagination, Navigation, Autoplay]}
         className="swiper_container"
       >
         {slidesData.map((slide) => (
           <SwiperSlide key={slide.id}>
-            <img src={slide.image} />
+            <Link to={slide.link}>
+              <img src={slide.image} />
+            </Link>
           </SwiperSlide>
         ))}
         <div className="slider-controller">
@@ -73,4 +70,4 @@ const BasicCarousel = () => {
   );
 };
 
-export default BasicCarousel;
+export default FadeCarousel;

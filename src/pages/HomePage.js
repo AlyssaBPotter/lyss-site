@@ -1,7 +1,6 @@
 import React from "react";
-import CarouselGallery from "../components/Carousel";
 import SwiperCarousel from "../components/SwiperCarousel";
-import BasicCarousel from "../components/SwiperCarousel";
+import FadeCarousel from "../components/FadeCarousel";
 
 const HomePage = () => {
   return (
@@ -14,12 +13,8 @@ const HomePage = () => {
         <SwiperCarousel />
       </div>
 
-      <div>
-        <CarouselGallery />
-      </div>
-
-      <div>
-        <BasicCarousel />
+      <div className="fade-carousel">
+        <FadeCarousel />
       </div>
     </div>
   );
