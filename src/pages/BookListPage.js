@@ -8,6 +8,10 @@ const BookListPage = () => {
     <div className="book-list-page">
       <h1 className="page-title">Alyssa's Stories</h1>
 
+      <div className="slider-carousel">
+        <SwiperCarousel />
+      </div>
+
       {books.map((book) => (
         <div className="book-list">
           <div className="book-prev-container" key={book.id}>

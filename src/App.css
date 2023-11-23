@@ -39,7 +39,7 @@
 
 :root{
   --main: #ffffff;
-  --agave: rgba(135, 157, 153, 0.3);
+  --agave: rgba(135, 157, 153, 0.2);
 
   --font1: "Quicksand1", 
 }
@@ -119,29 +119,30 @@ hr{
   margin-bottom: 10px;
 }
 
-.home-carousel{
+.slider-carousel{
   margin-top:100px;
   margin-bottom:100px;
 }
 
-.carousel-container{
-  display: flex;
-  position:absolute;
-  justify-content: center;
+.fade-carousel{
+  margin-top:100px;
+  margin-bottom:100px;
 }
 
-.carousel{
-  padding-bottom: 80px;
-}
 
 @media (max-width: 600px){
   .home-title{
     font-size: 58px;
   }
-  .home-carousel{
+  .slider-carousel{
+    margin: 0 auto;
+    padding-top:20%;
+    padding-bottom: 20%;
+  }
+  .fade-carousel{
     margin: 0 auto;
     padding-top:30%;
-    padding-bottom: 20%;
+    padding-bottom: 10%;
   }
 }
 
@@ -592,13 +593,16 @@ ul{
   .swiper-container:hover .swiper-pagination{
     opacity: 1;
   }
+
 .slider-arrow{
-  opacity: .2;
-  color: black;
-}
-  .slider-arrow:hover{
-    opacity: .5;
-    color: rgba(17, 71, 17, 1);
+  opacity: 0;
+  color: rgba(250, 250, 250, .3);
+}  
+  .swiper-container:hover .slider-arrow{
+    opacity: 1;
+    color: rgba(250, 250, 250, .3);
+    text-shadow: 0 0 2px rgba(0, 0, 0, .5);
+    transition: .2s ease-in-out;
   }
 
 
