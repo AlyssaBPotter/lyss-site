@@ -8,11 +8,6 @@ const BookListPage = () => {
     <div className="book-list-page">
       <h1 className="page-title">Alyssa's Stories</h1>
 
-      <div className="available">
-        <h2>Available on Wattpad</h2>
-        <h2>Available on Kindle</h2>
-      </div>
-
       <div className="slider-carousel">
         <SwiperCarousel />
       </div>
