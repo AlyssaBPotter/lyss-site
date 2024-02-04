@@ -30,33 +30,45 @@ const BookPage = () => {
   return (
     <div className="book-page">
       <div className="book-container">
+        <img className="container-background" src={book.cover} />
         <h1 className="book-title">{book.title}</h1>
         <div className="book-preview">
           <div>
             <img className="book-cover-lrg" src={book.cover} alt={book.title} />
           </div>
           <div className="book-page-info">
-            <p className="description" style={{ whiteSpace: "pre-line" }}>{book.description}</p>{" "}
+            <p className="description" style={{ whiteSpace: "pre-line" }}>
+              {book.description}
+            </p>{" "}
             {/* the styling allows \n and whitespace line breaks  */}
             <p className="content-warning">
               &#9888; Warning: Mature Content
               <br />
               &copy; All Rights Reserved
             </p>
-            <a href={book.wattpadLink} target="_blank" rel="noopener noreferrer">
-              <label>View on WattPad</label>
-            </a>
+            {book.platform === "wattpad" && (
+              <a href={book.wattpadLink} target="_blank" rel="noopener noreferrer">
+                View on WattPad
+              </a>
+            )}
+            {book.platform === "kindle" && (
+              <a href={book.kindleLink} target="_blank" rel="noopener noreferrer">
+                View on Amazon Kindle
+              </a>
+            )}
           </div>
         </div>
       </div>
-      <div className="chapter-preview">
-        <p style={{ whiteSpace: "pre-line" }} className="chapter-preview">
-          {firstChapter}
-        </p>
-        <a href={book.continueLink} target="_blank" rel="noopener noreferrer">
-          <label>Continue Reading</label>
-        </a>
-      </div>
+      {book.platform === "wattpad" && (
+        <div className="chapter-preview">
+          <p style={{ whiteSpace: "pre-line" }} className="chapter-preview">
+            {firstChapter}
+          </p>
+          <a href={book.continueLink} target="_blank" rel="noopener noreferrer">
+            Continue Reading
+          </a>
+        </div>
+      )}
     </div>
   );
 };

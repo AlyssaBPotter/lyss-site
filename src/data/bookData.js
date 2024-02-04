@@ -11,6 +11,7 @@ const books = [
     firstChapter: content.bestThingPrev,
     wattpadLink: "https://www.wattpad.com/story/298076190-the-best-thing",
     continueLink: "https://www.wattpad.com/1178487920-the-best-thing-slipping-away",
+    platform: "wattpad",
   },
   {
     id: 2,
@@ -22,6 +23,7 @@ const books = [
     firstChapter: content.everyLittleThingPrev,
     wattpadLink: "https://www.wattpad.com/story/321894178-every-little-thing",
     continueLink: "https://www.wattpad.com/1268666993-every-little-thing-chapter-one",
+    platform: "wattpad",
   },
   {
     id: 3,
@@ -33,6 +35,7 @@ const books = [
     firstChapter: content.secondChancesPrev,
     wattpadLink: "https://www.wattpad.com/story/316293809-second-chances",
     continueLink: "https://www.wattpad.com/1291179654-second-chances-remembering-you",
+    platform: "wattpad",
   },
   {
     id: 4,
@@ -44,6 +47,7 @@ const books = [
     firstChapter: content.ghostOfYouPrev,
     wattpadLink: "https://www.wattpad.com/story/336906106-the-ghost-of-you",
     continueLink: "https://www.wattpad.com/1324581709-the-ghost-of-you-destruction",
+    platform: "wattpad",
   },
   {
     id: 5,
@@ -55,6 +59,7 @@ const books = [
     firstChapter: content.loseYouPrev,
     wattpadLink: "https://www.wattpad.com/story/220056588-lose-you",
     continueLink: "https://www.wattpad.com/1309312765-lose-you-1",
+    platform: "wattpad",
   },
   {
     id: 6,
@@ -62,8 +67,10 @@ const books = [
     cover: content.truthOrDare,
     description: `Paisley accepts a dare or two... a night with the hot, single and infamous Maverick Warren. Hockey captain and campus heartthrob. Is it all fun and games or will this lead to more than either of them could have ever imagined?\n`,
     firstChapter: content.truthOrDarePrev,
-    wattpadLink: "https://www.wattpad.com/story/343771302-truth-or-dare",
-    continueLink: "https://www.wattpad.com/1351079182-truth-or-dare",
+    wattpadLink: "",
+    continueLink: "",
+    kindleLink: "",
+    platform: "kindle",
   },
 ];
 
