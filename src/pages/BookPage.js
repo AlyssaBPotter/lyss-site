@@ -29,14 +29,15 @@ const BookPage = () => {
 
   return (
     <div className="book-page">
-      <div className="book-container">
+      <h1 className="book-title">{book.title}</h1>
+      <div className="preview-container">
         <img className="container-background" src={book.cover} />
-        <h1 className="book-title">{book.title}</h1>
-        <div className="book-preview">
+
+        <div className="book-container">
           <div>
             <img className="book-cover-lrg" src={book.cover} alt={book.title} />
           </div>
-          <div className="book-page-info">
+          <div className="book-info">
             <p className="description" style={{ whiteSpace: "pre-line" }}>
               {book.description}
             </p>{" "}

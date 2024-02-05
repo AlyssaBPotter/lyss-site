@@ -14,15 +14,15 @@ const BookListPage = () => {
 
       {books.map((book) => (
         <div className="book-list">
-          <div className="book-prev-container" key={book.id}>
-            <h2 className="book-title">{book.title}</h2>
-            <div className="book-preview">
+          <div className="book-thumb-container" key={book.id}>
+            <h2 className="book-thumb-title">{book.title}</h2>
+            <div className="book-thumb-preview">
               <div>
                 <Link to={`/book/${book.id}`}>
                   <img className="book-cover-med" src={book.cover} alt={book.title} />
                 </Link>
               </div>
-              <div className="book-info">
+              <div className="book-thumb-info">
                 <p className="description" style={{ whiteSpace: "pre-line" }}>
                   {book.description}
                 </p>{" "}
