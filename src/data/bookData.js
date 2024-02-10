@@ -69,7 +69,8 @@ const books = [
     firstChapter: content.truthOrDarePrev,
     wattpadLink: "",
     continueLink: "",
-    kindleLink: "",
+    kindleLink:
+      "https://www.amazon.com/Truth-Dare-Alyssa-Potter-ebook/dp/B0CV5P7SHN/ref=sr_1_1?keywords=alyssa+potter&s=digital-text&sr=1-1",
     platform: "kindle",
   },
 ];
