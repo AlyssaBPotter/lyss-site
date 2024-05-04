@@ -5,9 +5,7 @@ import FadeCarousel from "../components/FadeCarousel";
 const HomePage = () => {
   return (
     <div className="home-container">
-      <div className="home-header">
-        <h1 className="home-title">WELCOME TO THE CAPTIVATING WORLD OF ALYSSA POTTER!</h1>
-      </div>
+      <h1 className="home-title">WELCOME TO THE CAPTIVATING WORLD OF ALYSSA POTTER!</h1>
 
       <div className="fade-carousel">
         <FadeCarousel />

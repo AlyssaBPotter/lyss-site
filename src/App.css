@@ -50,9 +50,10 @@
 }
 
 .app {
-  width: 1200px;
-  max-width: 1200px;
-  height: 88vh;
+  width: 100%;
+  max-width: 100vw;
+  height: 100%;
+  margin: 0 auto;
   margin: 0 auto;
 }
 @media (max-width: 600px){
@@ -84,31 +85,20 @@
 
 /*-----------------------------------------HOME PAGE-------------------------------------------*/
 
-
-.home-header{
-  height: 100px;
-  margin-bottom: 20px;
-  padding-bottom: 200px;
+.home-container{
+  margin: 0 auto;
+  width: 95%;
 }
+
 
 .home-title{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 20px auto;
+  margin: 0 auto;
+  padding-top: 40px;
   text-align: center;
   font-size: 80px;
-  font-family: 'AmaticSC';
-  text-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
-}
-
-.page-title{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px auto;
-  text-align: center;
-  font-size: 60px;
   font-family: 'AmaticSC';
   text-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
 }
@@ -116,28 +106,33 @@
 hr{
   border: none;
   border-top: 1px solid #464646;
-  margin-bottom: 10px;
+  width: 90%;
+  margin: 10px auto;
+}
+
+
+.fade-carousel{
+  margin: 0 auto;
+  margin-block: 100px;
 }
 
 .slider-carousel{
-  margin-top:100px;
-  margin-bottom:100px;
+  margin-block: 100px;
 }
-
-.fade-carousel{
-  margin-top:100px;
-  margin-bottom:100px;
-}
-
 
 @media (max-width: 600px){
+
+  .home-container{
+    margin: 0 auto;
+    width: 98%;
+  }
+
   .home-title{
     font-size: 58px;
   }
   .slider-carousel{
     margin: 0 auto;
-    padding-top:20%;
-    padding-bottom: 20%;
+    padding-block:20%;
   }
   .fade-carousel{
     margin: 0 auto;
@@ -147,20 +142,21 @@ hr{
 }
 
 /*-----------------------------------------NAVBAR-------------------------------------------*/
-nav{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  max-height: fit-content;
-}
+
 
 ul{
   list-style: none;
 }
 
+.mobile-menu-button{
+  display: none;
+}
+
 .header-navigation{
   display: flex;
   flex-direction: row;
+  align-items: center;
+  max-height: fit-content;
   align-items: center;
   width: 75%;
   max-width: 100%;
@@ -168,7 +164,8 @@ ul{
 }
 
 .header-logo{
-  margin: 0 10px;
+  position: static;
+  margin: 0 auto;
 }
 
 .site-logo{
@@ -189,7 +186,7 @@ ul{
 .navbar-options{
   display: flex;
   flex-direction: row;
-  margin: 0 10px;
+  margin: 0 auto;
 }
 
 .link{
@@ -198,6 +195,7 @@ ul{
   font-size: 28px;
   font-family: 'AmaticSC';
   font-weight: bold;
+  padding-inline: 20px;
 }
 .link:hover{
   color: rgb(17, 71, 17);
@@ -214,14 +212,51 @@ ul{
 
 @media (max-width: 600px){
   .header-navigation{
-    flex-direction: row;
-    text-align: center;
-    width: 360px;
+    display: none;
   }
-  .navbar-options{
+
+  .link{
+    padding-inline: 0;
+  }
+
+  .mobile-menu-button{
+    display: block;
+    text-align: end;
+    font-size: 38px;
+    padding: 2px;
+  }
+
+  .mobile-menu {
+    display: block;
+    background-color: white;
+    position: fixed;
+    padding-inline: 8px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    transition: ease-in-out 1.5s;
+  }
+
+  .mobile-menu .navbar-options {
+    display: flex;
     flex-direction: column;
-    margin: 0;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
+
+  .mobile-menu .link {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    line-height: 3;
+    font-size: 30px;
+    margin-inline: 0;
+    padding-inline: 10px;
+  }
+
   .header-logo{
     width: 100%;
     margin: 0 auto;
@@ -281,12 +316,28 @@ ul{
   }
 }
 
+
+/*-----------------------------------GENERAL PAGE SETTINGS--------------------------------------------------*/
+
+
+.page-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'AmaticSC';
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, .3);
+}
+
+
 /*-----------------------------------BOOK LIST PAGE--------------------------------------------------*/
 .book-thumb-container{
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 40px 0;
+  width: 90%;
+  margin: 40px auto;
 }
 
 .book-thumb-title{
@@ -324,16 +375,16 @@ ul{
 .book-thumb-info{
   display: flex;
   flex-direction: column;
-  width: 75%;
-  margin: 2px 2px;
-  padding: 0 0 0 16px;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 40px;
   font-family: var(--font1);
   font-size: 14px;
 }
 
 .content-warning{
   font-size: 12px;
-  margin: 10px 0 0 0;
+  margin-top: 30px;
 }   
 
 @media (max-width: 600px){
@@ -345,6 +396,7 @@ ul{
     width: 40%;
   }
   .book-thumb-info{
+    width: 90%;
     padding: 0 0 0 0;
     flex-wrap: wrap;
     text-align: justify;
@@ -491,10 +543,30 @@ ul{
 .upcoming-list .book-preview{
   justify-content: center;
   margin: 20px auto;
+  width: 50%;
+  padding-bottom: 50px;
 }
 
+@media (max-width: 600px){
+  .upcoming-list .book-title{
+    font-size: 60px;
+    font-weight: 500;
+  }
+  .upcoming-list .book-preview{
+    justify-content: center;
+    margin: 20px auto;
+    width: 90%;
+    padding-bottom: 50px;
+  }
 
+
+}
 /*-----------------------------------ABOUT PAGE--------------------------------------------------*/
+
+.about-container{
+  width: 80%;
+  margin: 0 auto;
+}
 
 .about-row{
   display: flex;
@@ -506,8 +578,10 @@ ul{
   display: flex;
   flex-direction: column;
   text-align: justify;
-  width: 75%;
+  width: 60%;
   margin: 10px 10px;
+  padding-block: 20px;
+  line-height: 1.5;
 }
 
 .about-social-container{
@@ -536,10 +610,18 @@ ul{
 }
 
 @media (max-width: 600px){  
+
+  .about-container{
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .about-row{
     flex-direction: column;
   }
   .about-text{
+    width: 80%;
+    line-height: 1.25;
     margin: 0 auto;
   }
   .about-social-container{
