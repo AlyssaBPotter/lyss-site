@@ -58,13 +58,13 @@ const Footer = () => {
           </a>
         </li>
       </ul>
-      <label className="copyright">
+      <p className="copyright">
         © 2023 Alyssa Potter. Website developed by{" "}
         <a href="https://npotter.com/" target="_blank" rel="noopener noreferrer">
           npotter.com
         </a>
         .
-      </label>
+      </p>
     </div>
   );
 };
