@@ -59,7 +59,11 @@ const Footer = () => {
         </li>
       </ul>
       <label className="copyright">
-        Copyright © 2023 Alyssa Potter. Web design by Nathan Potter. All rights reserved.
+        © 2023 Alyssa Potter. Website developed by{" "}
+        <a href="https://npotter.com/" target="_blank" rel="noopener noreferrer">
+          npotter.com
+        </a>
+        .
       </label>
     </div>
   );
