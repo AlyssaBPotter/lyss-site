@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8c53f129.css",
+    "main.css": "/static/css/main.e2492dac.css",
     "main.js": "/static/js/main.7fd04240.js",
     "static/media/Available-Wattpad-Slide.png": "/static/media/Available-Wattpad-Slide.dfdd086c47327ca919b1.png",
     "static/media/Second-Chances.png": "/static/media/Second-Chances.bc510f740f66a80b0cd7.png",
@@ -26,11 +26,11 @@
     "static/media/Ghost-Of-You-Ch1.txt": "/static/media/Ghost-Of-You-Ch1.d2a2ef8237620d6f70ee.txt",
     "static/media/Best-Thing-Ch1.txt": "/static/media/Best-Thing-Ch1.7c79cdd058bba0a8ec28.txt",
     "index.html": "/index.html",
-    "main.8c53f129.css.map": "/static/css/main.8c53f129.css.map",
+    "main.e2492dac.css.map": "/static/css/main.e2492dac.css.map",
     "main.7fd04240.js.map": "/static/js/main.7fd04240.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c53f129.css",
+    "static/css/main.e2492dac.css",
     "static/js/main.7fd04240.js"
   ]
 }
